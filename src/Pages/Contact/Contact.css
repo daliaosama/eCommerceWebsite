@@ -1,0 +1,155 @@
+#contactpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+#contact{
+    width:40.25rem;
+    color:#9F9F9F
+}
+#contactheader{
+    width: 100%;
+    height: 19.75rem;
+    background-size: cover;
+    background-image: url('/public/assets/contact.jpg');
+    background-position: 1vh bottom ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#contactus{
+    display: flex;
+   
+}
+#contactinfo{
+    display: flex;
+    flex-direction: column;
+    width:24.56rem;
+    height: 33.56rem;
+    
+}
+#address,#phone,#workingtime{
+    display: flex;
+    gap:1rem
+}
+.contactdetails{
+    display: flex;
+    flex-direction: column;
+}
+.imgcontact{
+    width:1.75rem;
+    height:1.88rem ;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width:33.13rem;
+    height:7.56rem
+}
+form{
+    width: 39.69rem;
+    height: 57.69rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem
+}
+ input{
+    width: 33.06rem;
+    height: 4.69rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.formlabels{
+    font-weight: bold;
+}
+input[type=submit]{
+    width:14.81rem;
+    height:3.44rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #B88E2F;
+    color:#ffffff;
+    border-style: none;
+    cursor: pointer;
+}
+#message{
+    display: flex;
+    flex-direction: column;
+    width:33rem;
+    height:10.38rem;
+    gap: 1rem;
+}
+textarea{
+    width: 33.94rem;
+    height: 7.50rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#contacthead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    box-sizing: border-box;
+}
+@media only screen and (min-width:344px) and (max-width:600px){
+    #contactus{
+        flex-direction: column;
+        width: 100%;
+   
+        
+    }
+    #contacthead{
+        width: 90%;
+        
+    }
+    input[type=submit]{
+        width: 100%
+    }
+    #contactinfo{
+        width:28rem;
+        height: 19rem;
+    
+        
+    }
+    #contact{
+        width:24rem;
+        text-align: center;
+        
+       
+    }
+    form{
+        width: 100%;
+        height: 57.69rem;
+       
+       box-sizing: border-box;
+    }
+    input{
+       width:27rem; 
+       height: 4.69rem;
+    }
+    #message{
+        width: 99%;
+    }
+    .contactdetails p{
+        width: 15rem;
+    }
+    .inputs{
+        width: 100%;
+    }
+    
+}
