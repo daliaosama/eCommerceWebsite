@@ -107,16 +107,21 @@ h5{
 
 @media only screen and (min-width:344px) and (max-width:600px){
   #products{
-    grid-template-columns: repeat(2,14rem);
+    grid-template-columns: repeat(2,10rem);
   width: 100%;
   gap: 1rem;
 
   }
   .hover{
-    width: 14rem;
+    width: 10rem;
+  }
+  .add{
+    width: 6rem;
   }
   .image{
     width:100%;
 }
-  
+.Productprice{
+  height: 9rem;
+}
 }

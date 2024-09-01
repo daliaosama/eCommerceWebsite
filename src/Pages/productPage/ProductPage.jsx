@@ -58,12 +58,13 @@ function ProductPage(){
     return (
         <div id="product">
         <div id="headerproduct">
-        <label >
+        <label>
             <Link to="/" className="lab3">Home</Link>
-          </label>  &gt;
-          <label >
-            <Link to="/ShopPage" className="lab3">Shop</Link> &gt;
-          </label>  |
+         </label>  
+         <label className="lab2">&gt;</label>
+          <label>
+            <Link to="/ShopPage" className="lab3">Shop</Link> 
+          </label>  <label className="lab2">&gt;</label>|
         <h5 id="title">{product.title}</h5>
         </div>
           <div id="ProductDetails">
