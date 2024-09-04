@@ -6,8 +6,8 @@ function HomePage() {
   const [category, setCategory] = useState([]);
 
   const categoryImages = {
-    electronics: '/assets/electronics.webp',
-    jewelery: '/assets/jewelery.jpg',
+    "electronics": '/assets/electronics.webp',
+    "jewelery": '/assets/jewelery.jpg',
     "men's clothing": '/assets/men.webp',
     "women's clothing": '/assets/women.webp',
   };

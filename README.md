@@ -7,7 +7,7 @@ the website consits of 6 pages
 2. home page which contain the 4 categories,
 3. Shop page which contain the products of each category,
 4. product page which contain the details of each product,
-5. cart page which contain the products that the user has added to the cart,
+5. cart page which contain the products that the user has added to the cart.
 6. contactus page 
 
 # Technologies Used

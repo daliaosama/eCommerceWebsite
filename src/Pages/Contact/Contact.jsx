@@ -58,13 +58,13 @@ function Contact() {
       <h1>Contact</h1>
       <div className="link">
       <label>
-            <Link to="/">Home</Link>
+            <Link to="/" className="lab1">Home</Link>
           </label>
           {pathnames.map((value, index) => {
             const to = `/${pathnames.slice(0, index + 1).join("/")}`;
             return (
               <label key={to} style={{ display: "flex", alignItems: "center" }}>
-                <span style={{ margin: "0 10px" }}>
+                <span style={{ margin: "0 10px" ,fontWeight:"bold"}}>
                   &gt;
                 </span>
                 <Link to={to}>
