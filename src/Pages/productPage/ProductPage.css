@@ -208,9 +208,11 @@ hr {
   display: flex;
   flex-direction: column;
 }
-.cartprice {
+.cartprice{
   display: flex;
   gap: 1rem;
+  align-items: center;
+  height:2rem;
 }
 .lab {
   color: #9f9f9f;
@@ -270,11 +272,11 @@ h3 {
     width: 22rem;
   }
   #headerproduct {
-    width: 69%;
+    width: 100%;
     padding-left: 1rem;
   }
   #shoppingcart {
-    left: 7rem;
+    left:7rem;
     height: 32rem;
     width: 18rem;
   }

@@ -158,7 +158,7 @@ function ProductPage(){
         <div className="cartlabels">
         <label>{item.title} </label>
         <div className="cartprice">
-        <label >{item.quantity}</label>x
+        <label>{item.quantity}</label>x
         <label className="Price">Rs. {item.price}</label>
         </div>
        
